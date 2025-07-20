@@ -1,0 +1,23 @@
+#!/bin/bash
+function cprin() 
+{
+    COLUMNS=$(tput cols)
+    padding=$(( (COLUMNS - ${#1}) / 2 ))
+    printf "%*s%s%*s\n" "$padding" "" "$1" "$padding" ""
+
+}
+clear
+while [[ true ]]; do
+clear
+cprin $(pwd)
+cprin "$(ls -f -p -C)"
+cprin ""
+read -e input
+cd $input
+if [[ $input == "exit" ]]; then
+break
+fi
+
+done
+clear
+echo $(pwd)
