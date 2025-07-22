@@ -5,7 +5,7 @@ do
 sudo git clone https://github.com/clarkdalark/fast-cd /usr/local/bin/
 cd /usr/local/bin/
 chmod +x fcd
-cp fcd /usr/local/bin/
+export PATH="$PATH /usr/local/bin/"
 cd
 ```
 to install
