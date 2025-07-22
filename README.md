@@ -2,10 +2,9 @@ fcd (or fast cd) displays folder contents and the dir at the same time as cd for
 das about it.
 do
 ```bash
-sudo git clone https://github.com/clarkdalark/fast-cd /usr/local/bin/fcd
-cd /usr/local/bin/fcd
+sudo git clone https://github.com/clarkdalark/fast-cd /usr/bin/
+cd /usr/bin/
 chmod +x fcd
-export PATH="$PATH /usr/local/bin/fcd"
 cd
 ```
 to install
