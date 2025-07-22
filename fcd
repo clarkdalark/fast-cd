@@ -20,4 +20,4 @@ fi
 
 done
 clear
-echo $(pwd)
+ "run 'cd "$(pwd)"'"
