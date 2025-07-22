@@ -6,7 +6,7 @@ sudo git clone https://github.com/clarkdalark/fast-cd /usr/bin/fcd
 cd /usr/bin/fcd
  export PATH="$PATH /usr/bin/fcd"
 
-chmod +x fcd
+sudo chmod +x fcd
 cd
 ```
 to install
