@@ -5,7 +5,7 @@ do
 sudo git clone https://github.com/clarkdalark/fast-cd
 cd fast-cd
 sudo cp "fcd" "/usr/bin"
-sudo cd /usr/bin
+cd /usr/bin
 sudo chmod +x fcd
 cd
 ```
