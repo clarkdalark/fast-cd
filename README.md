@@ -6,7 +6,7 @@ sudo git clone https://github.com/clarkdalark/fast-cd
 cd fast-cd
 sudo cp "fcd" "/usr/bin"
 cd /usr/bin
-sudo chmod +x fcd
+sudo chmod u+x fcd
 cd
 ```
 to install
